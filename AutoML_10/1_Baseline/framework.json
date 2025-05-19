@@ -1,0 +1,79 @@
+{
+    "uid": "984ea8e9-63d6-4918-bdbe-c78502988c69",
+    "name": "1_Baseline",
+    "preprocessing": [
+        {
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "regression"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.6.1",
+            "algorithm_name": "Baseline Regressor",
+            "algorithm_short_name": "Baseline",
+            "uid": "c95bbd5a-8675-40eb-aa7f-3e981569ebd8",
+            "params": {
+                "model_type": "Baseline",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1235,
+                "explain_level": 2
+            },
+            "name": "learner_fold_0"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_steps": 1,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {},
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "regression"
+        },
+        "validation_strategy": {
+            "validation_type": "split",
+            "train_ratio": 0.75,
+            "shuffle": true,
+            "X_path": "AutoML_10/X.data",
+            "y_path": "AutoML_10/y.data",
+            "results_path": "AutoML_10"
+        },
+        "learner": {
+            "model_type": "Baseline",
+            "ml_task": "regression",
+            "n_jobs": -1,
+            "seed": 1235,
+            "explain_level": 2
+        },
+        "automl_random_state": 1234,
+        "ml_task": "regression",
+        "explain_level": 2,
+        "name": "1_Baseline",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 90.0
+    },
+    "saved": [
+        "1_Baseline/learner_fold_0.baseline"
+    ],
+    "predictions_fname": "1_Baseline/predictions_validation.csv",
+    "metric_name": "mse",
+    "final_loss": "1.0136104013939844",
+    "train_time": 1.3363323211669922,
+    "is_stacked": false,
+    "joblib_version": "1.5.0"
+}

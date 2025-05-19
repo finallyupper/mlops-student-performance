@@ -1,0 +1,16 @@
+if (exam_anxiety_score <= 0.552) and (study_hours_per_day > -0.26) and (study_environment_Dorm <= 0.5) then response: 0.421 | based on 11,334 samples
+
+if (exam_anxiety_score > 0.552) and (study_hours_per_day <= -0.028) and (study_environment_Dorm <= 0.5) then response: -0.352 | based on 9,631 samples
+
+if (exam_anxiety_score > 0.552) and (study_hours_per_day > -0.028) and (study_environment_Dorm <= 0.5) then response: 0.081 | based on 9,552 samples
+
+if (exam_anxiety_score <= 0.552) and (study_hours_per_day <= -0.26) and (study_environment_Dorm <= 0.5) then response: 0.111 | based on 7,745 samples
+
+if (exam_anxiety_score <= 0.552) and (study_hours_per_day > -0.26) and (study_environment_Dorm > 0.5) then response: 0.148 | based on 2,952 samples
+
+if (exam_anxiety_score > 0.552) and (study_hours_per_day > -0.028) and (study_environment_Dorm > 0.5) then response: -0.273 | based on 2,452 samples
+
+if (exam_anxiety_score > 0.552) and (study_hours_per_day <= -0.028) and (study_environment_Dorm > 0.5) then response: -0.837 | based on 2,355 samples
+
+if (exam_anxiety_score <= 0.552) and (study_hours_per_day <= -0.26) and (study_environment_Dorm > 0.5) then response: -0.318 | based on 1,979 samples
+

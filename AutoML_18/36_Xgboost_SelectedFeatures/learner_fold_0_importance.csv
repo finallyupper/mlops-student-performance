@@ -1,0 +1,23 @@
+feature,mean_importance
+parental_education_level,-0.00045250026277932065
+semester,-0.0003045917678182075
+learning_style_Visual,-0.0001503459141001695
+gender_Other,-0.00010589385637449489
+major_Biology,-9.576929072343531e-05
+major_Business,-6.34951518771354e-05
+internet_quality,-6.457317064789691e-06
+dropout_risk_Yes,5.192567139709059e-05
+major_Computer Science,7.48610659133453e-05
+learning_style_Reading,0.0002186226014103232
+netflix_hours,0.0004542709474141482
+screen_time,0.000641951924473938
+study_environment_Co-Learning Group,0.0018160717834503348
+study_environment_Library,0.0026279196548046222
+study_environment_Quiet Room,0.009425370805091005
+sleep_hours,0.013648368008116307
+exercise_frequency,0.016795218655266786
+access_to_tutoring_Yes,0.02632617991558144
+stress_level,0.027297793527972902
+study_environment_Dorm,0.03123074651023925
+study_hours_per_day,0.12184498256103542
+motivation_level,0.13433548643629123

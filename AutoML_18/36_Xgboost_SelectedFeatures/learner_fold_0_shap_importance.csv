@@ -1,0 +1,23 @@
+feature,shap_importance
+motivation_level,0.21960692
+study_hours_per_day,0.1886046
+access_to_tutoring_Yes,0.11479842
+stress_level,0.095536135
+study_environment_Dorm,0.092708796
+sleep_hours,0.07205283
+exercise_frequency,0.06975815
+study_environment_Quiet Room,0.052727353
+study_environment_Co-Learning Group,0.022537857
+study_environment_Library,0.020164486
+screen_time,0.0138862
+netflix_hours,0.0044788555
+semester,0.00303758
+dropout_risk_Yes,0.0026619248
+parental_education_level,0.0021116836
+major_Biology,0.0018593293
+internet_quality,0.0017190145
+gender_Other,0.0012640607
+learning_style_Visual,0.0009933423
+learning_style_Reading,0.00083940744
+major_Business,0.00078693195
+major_Computer Science,0.00054386747

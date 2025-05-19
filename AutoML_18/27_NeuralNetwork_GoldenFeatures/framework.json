@@ -1,0 +1,278 @@
+{
+    "uid": "55cacd98-1b4b-4148-af69-99c2c56c2c28",
+    "name": "27_NeuralNetwork_GoldenFeatures",
+    "preprocessing": [
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "study_hours_per_day",
+                        "feature2": "exam_anxiety_score",
+                        "operation": "diff",
+                        "score": 0.8911647973
+                    },
+                    {
+                        "feature1": "motivation_level",
+                        "feature2": "study_hours_per_day",
+                        "operation": "sum",
+                        "score": 0.8994074212
+                    },
+                    {
+                        "feature1": "motivation_level",
+                        "feature2": "study_environment_Dorm",
+                        "operation": "diff",
+                        "score": 0.9223641027
+                    },
+                    {
+                        "feature1": "study_environment_Dorm",
+                        "feature2": "exam_anxiety_score",
+                        "operation": "sum",
+                        "score": 0.9232249588
+                    },
+                    {
+                        "feature1": "motivation_level",
+                        "feature2": "screen_time",
+                        "operation": "sum",
+                        "score": 0.9273993997
+                    },
+                    {
+                        "feature1": "screen_time",
+                        "feature2": "exam_anxiety_score",
+                        "operation": "diff",
+                        "score": 0.9285946974
+                    },
+                    {
+                        "feature1": "study_hours_per_day",
+                        "feature2": "study_environment_Dorm",
+                        "operation": "diff",
+                        "score": 0.9329599608
+                    },
+                    {
+                        "feature1": "access_to_tutoring_Yes",
+                        "feature2": "motivation_level",
+                        "operation": "sum",
+                        "score": 0.9331940638
+                    },
+                    {
+                        "feature1": "exam_anxiety_score",
+                        "feature2": "study_environment_Dorm",
+                        "operation": "diff",
+                        "score": 0.9343735708
+                    },
+                    {
+                        "feature1": "exam_anxiety_score",
+                        "feature2": "access_to_tutoring_Yes",
+                        "operation": "diff",
+                        "score": 0.9351205999
+                    }
+                ],
+                "new_columns": [
+                    "study_hours_per_day_diff_exam_anxiety_score",
+                    "motivation_level_sum_study_hours_per_day",
+                    "motivation_level_diff_study_environment_Dorm",
+                    "study_environment_Dorm_sum_exam_anxiety_score",
+                    "motivation_level_sum_screen_time",
+                    "screen_time_diff_exam_anxiety_score",
+                    "study_hours_per_day_diff_study_environment_Dorm",
+                    "access_to_tutoring_Yes_sum_motivation_level",
+                    "exam_anxiety_score_diff_study_environment_Dorm",
+                    "exam_anxiety_score_diff_access_to_tutoring_Yes"
+                ],
+                "ml_task": "regression"
+            },
+            "scale": [
+                {
+                    "scale": [
+                        0.7449871050801007,
+                        1.4145340462447797,
+                        0.8176611687270808,
+                        0.8166976752589893,
+                        0.49999938964806495,
+                        1.4111958185145517,
+                        1.41034115351852,
+                        1.074557124236435,
+                        1.0756725311594006,
+                        1.4117246960326244,
+                        1.4119632551791332,
+                        1.0728885747002626,
+                        1.1180692428121661,
+                        1.0807332023051732,
+                        1.1195421762891422
+                    ],
+                    "mean": [
+                        1.3333506944444444,
+                        1.9891493055555556,
+                        1.0025694444444444,
+                        1.0011979166666667,
+                        0.50078125,
+                        0.00152830410302937,
+                        0.002061658345721343,
+                        -0.20024229431193033,
+                        0.2007756485546223,
+                        0.0016769211048488046,
+                        0.0011435668621568359,
+                        -0.20137660289790385,
+                        0.5023792334658473,
+                        -0.20290490700093325,
+                        -0.5018458792231555
+                    ],
+                    "var": [
+                        0.555005786735629,
+                        2.000906567985629,
+                        0.6685697868441357,
+                        0.6669950927734375,
+                        0.24999938964843746,
+                        1.9914736381929556,
+                        1.9890621693079493,
+                        1.1546730132472771,
+                        1.157071394290872,
+                        1.9929666173884055,
+                        1.993640233976054,
+                        1.151089893722361,
+                        1.2500788317225706,
+                        1.1679842545647943,
+                        1.2533746844902287
+                    ],
+                    "n_samples_seen": 57600,
+                    "n_features_in": 15,
+                    "columns": [
+                        "diet_quality",
+                        "parental_education_level",
+                        "internet_quality",
+                        "family_income_range",
+                        "access_to_tutoring_Yes",
+                        "study_hours_per_day_diff_exam_anxiety_score",
+                        "motivation_level_sum_study_hours_per_day",
+                        "motivation_level_diff_study_environment_Dorm",
+                        "study_environment_Dorm_sum_exam_anxiety_score",
+                        "motivation_level_sum_screen_time",
+                        "screen_time_diff_exam_anxiety_score",
+                        "study_hours_per_day_diff_study_environment_Dorm",
+                        "access_to_tutoring_Yes_sum_motivation_level",
+                        "exam_anxiety_score_diff_study_environment_Dorm",
+                        "exam_anxiety_score_diff_access_to_tutoring_Yes"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "diet_quality": [
+                        "scale_normal"
+                    ],
+                    "parental_education_level": [
+                        "scale_normal"
+                    ],
+                    "internet_quality": [
+                        "scale_normal"
+                    ],
+                    "family_income_range": [
+                        "scale_normal"
+                    ],
+                    "access_to_tutoring_Yes": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_18",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.6.1",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "58f06321-18de-449e-aa7c-b23efeded4ae",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1239,
+                "dense_1_size": 64,
+                "dense_2_size": 16,
+                "learning_rate": 0.01,
+                "explain_level": 2
+            },
+            "name": "learner_fold_0"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "diet_quality": [
+                    "scale_normal"
+                ],
+                "parental_education_level": [
+                    "scale_normal"
+                ],
+                "internet_quality": [
+                    "scale_normal"
+                ],
+                "family_income_range": [
+                    "scale_normal"
+                ],
+                "access_to_tutoring_Yes": [
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "regression",
+            "golden_features": {
+                "results_path": "AutoML_18",
+                "ml_task": "regression",
+                "n_jobs": -1
+            }
+        },
+        "validation_strategy": {
+            "validation_type": "split",
+            "train_ratio": 0.9,
+            "shuffle": true,
+            "X_path": "AutoML_18/X.data",
+            "y_path": "AutoML_18/y.data",
+            "results_path": "AutoML_18"
+        },
+        "learner": {
+            "model_type": "Neural Network",
+            "ml_task": "regression",
+            "n_jobs": -1,
+            "seed": 1239,
+            "dense_1_size": 64,
+            "dense_2_size": 16,
+            "learning_rate": 0.01,
+            "explain_level": 2
+        },
+        "automl_random_state": 1234,
+        "ml_task": "regression",
+        "explain_level": 2,
+        "name": "27_NeuralNetwork_GoldenFeatures",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_golden_features",
+        "max_time_for_learner": 90.0
+    },
+    "saved": [
+        "27_NeuralNetwork_GoldenFeatures/learner_fold_0.neural_network"
+    ],
+    "predictions_fname": "27_NeuralNetwork_GoldenFeatures/predictions_validation.csv",
+    "metric_name": "mae",
+    "final_loss": "0.7348520722445538",
+    "train_time": 8.139586210250854,
+    "is_stacked": false,
+    "joblib_version": "1.5.0"
+}

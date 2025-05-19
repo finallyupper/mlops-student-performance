@@ -1,0 +1,77 @@
+{
+    "new_features": [
+        {
+            "feature1": "study_hours_per_day",
+            "feature2": "exam_anxiety_score",
+            "operation": "diff",
+            "score": 0.8911647973
+        },
+        {
+            "feature1": "motivation_level",
+            "feature2": "study_hours_per_day",
+            "operation": "sum",
+            "score": 0.8994074212
+        },
+        {
+            "feature1": "motivation_level",
+            "feature2": "study_environment_Dorm",
+            "operation": "diff",
+            "score": 0.9223641027
+        },
+        {
+            "feature1": "study_environment_Dorm",
+            "feature2": "exam_anxiety_score",
+            "operation": "sum",
+            "score": 0.9232249588
+        },
+        {
+            "feature1": "motivation_level",
+            "feature2": "screen_time",
+            "operation": "sum",
+            "score": 0.9273993997
+        },
+        {
+            "feature1": "screen_time",
+            "feature2": "exam_anxiety_score",
+            "operation": "diff",
+            "score": 0.9285946974
+        },
+        {
+            "feature1": "study_hours_per_day",
+            "feature2": "study_environment_Dorm",
+            "operation": "diff",
+            "score": 0.9329599608
+        },
+        {
+            "feature1": "access_to_tutoring_Yes",
+            "feature2": "motivation_level",
+            "operation": "sum",
+            "score": 0.9331940638
+        },
+        {
+            "feature1": "exam_anxiety_score",
+            "feature2": "study_environment_Dorm",
+            "operation": "diff",
+            "score": 0.9343735708
+        },
+        {
+            "feature1": "exam_anxiety_score",
+            "feature2": "access_to_tutoring_Yes",
+            "operation": "diff",
+            "score": 0.9351205999
+        }
+    ],
+    "new_columns": [
+        "study_hours_per_day_diff_exam_anxiety_score",
+        "motivation_level_sum_study_hours_per_day",
+        "motivation_level_diff_study_environment_Dorm",
+        "study_environment_Dorm_sum_exam_anxiety_score",
+        "motivation_level_sum_screen_time",
+        "screen_time_diff_exam_anxiety_score",
+        "study_hours_per_day_diff_study_environment_Dorm",
+        "access_to_tutoring_Yes_sum_motivation_level",
+        "exam_anxiety_score_diff_study_environment_Dorm",
+        "exam_anxiety_score_diff_access_to_tutoring_Yes"
+    ],
+    "ml_task": "regression"
+}

@@ -1,0 +1,39 @@
+feature,shap_importance
+exam_anxiety_score,0.1996506405494496
+study_hours_per_day,0.17750971390264023
+study_environment_Dorm,0.11933174280695442
+motivation_level,0.02963629890428171
+access_to_tutoring_Yes,0.023342768539192326
+stress_level,0.019264042476568353
+screen_time,0.003165914157345068
+sleep_hours,0.0009328911148397364
+exercise_frequency,0.000603592519194555
+age,0.0
+major_Engineering,0.0
+major_Psychology,0.0
+part_time_job_Yes,0.0
+dropout_risk_Yes,0.0
+extracurricular_participation_Yes,0.0
+major_Business,0.0
+study_environment_Co-Learning Group,0.0
+study_environment_Library,0.0
+study_environment_Quiet Room,0.0
+learning_style_Kinesthetic,0.0
+learning_style_Reading,0.0
+major_Computer Science,0.0
+time_management_score,0.0
+major_Biology,0.0
+gender_Other,0.0
+gender_Male,0.0
+parental_support_level,0.0
+family_income_range,0.0
+social_activity,0.0
+semester,0.0
+mental_health_rating,0.0
+internet_quality,0.0
+parental_education_level,0.0
+diet_quality,0.0
+attendance_percentage,0.0
+netflix_hours,0.0
+social_media_hours,0.0
+learning_style_Visual,0.0

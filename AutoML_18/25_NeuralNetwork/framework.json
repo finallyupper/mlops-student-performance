@@ -1,0 +1,151 @@
+{
+    "uid": "1648cd03-7a77-4fa7-80d7-82fc7fe2ac8a",
+    "name": "25_NeuralNetwork",
+    "preprocessing": [
+        {
+            "scale": [
+                {
+                    "scale": [
+                        0.7449871050801007,
+                        1.4145340462447797,
+                        0.8176611687270808,
+                        0.8166976752589893,
+                        0.49999938964806495
+                    ],
+                    "mean": [
+                        1.3333506944444444,
+                        1.9891493055555556,
+                        1.0025694444444444,
+                        1.0011979166666667,
+                        0.50078125
+                    ],
+                    "var": [
+                        0.555005786735629,
+                        2.000906567985629,
+                        0.6685697868441357,
+                        0.6669950927734375,
+                        0.24999938964843746
+                    ],
+                    "n_samples_seen": 57600,
+                    "n_features_in": 5,
+                    "columns": [
+                        "diet_quality",
+                        "parental_education_level",
+                        "internet_quality",
+                        "family_income_range",
+                        "access_to_tutoring_Yes"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "diet_quality": [
+                        "scale_normal"
+                    ],
+                    "parental_education_level": [
+                        "scale_normal"
+                    ],
+                    "internet_quality": [
+                        "scale_normal"
+                    ],
+                    "family_income_range": [
+                        "scale_normal"
+                    ],
+                    "access_to_tutoring_Yes": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "regression"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.6.1",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "3672cfc5-0e94-4728-a6a0-820311e4cc92",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1237,
+                "dense_1_size": 64,
+                "dense_2_size": 32,
+                "learning_rate": 0.08,
+                "explain_level": 2
+            },
+            "name": "learner_fold_0"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "diet_quality": [
+                    "scale_normal"
+                ],
+                "parental_education_level": [
+                    "scale_normal"
+                ],
+                "internet_quality": [
+                    "scale_normal"
+                ],
+                "family_income_range": [
+                    "scale_normal"
+                ],
+                "access_to_tutoring_Yes": [
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "regression"
+        },
+        "validation_strategy": {
+            "validation_type": "split",
+            "train_ratio": 0.9,
+            "shuffle": true,
+            "X_path": "AutoML_18/X.data",
+            "y_path": "AutoML_18/y.data",
+            "results_path": "AutoML_18"
+        },
+        "learner": {
+            "model_type": "Neural Network",
+            "ml_task": "regression",
+            "n_jobs": -1,
+            "seed": 1237,
+            "dense_1_size": 64,
+            "dense_2_size": 32,
+            "learning_rate": 0.08,
+            "explain_level": 2
+        },
+        "automl_random_state": 1234,
+        "ml_task": "regression",
+        "explain_level": 2,
+        "name": "25_NeuralNetwork",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 90.0
+    },
+    "saved": [
+        "25_NeuralNetwork/learner_fold_0.neural_network"
+    ],
+    "predictions_fname": "25_NeuralNetwork/predictions_validation.csv",
+    "metric_name": "mae",
+    "final_loss": "0.7383660248125936",
+    "train_time": 12.629615306854248,
+    "is_stacked": false,
+    "joblib_version": "1.5.0"
+}

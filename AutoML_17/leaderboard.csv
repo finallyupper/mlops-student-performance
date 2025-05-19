@@ -1,0 +1,6 @@
+name,model_type,metric_type,metric_value,train_time,single_prediction_time
+1_Default_Xgboost,Xgboost,mae,0.7347831656031116,109.12,0.0459
+2_Xgboost,Xgboost,mae,0.7374353952080986,119.04,0.046
+3_Xgboost,Xgboost,mae,0.7376840319720315,104.31,0.0473
+4_Xgboost,Xgboost,mae,0.7359519266245739,90.18,0.0719
+5_Xgboost,Xgboost,mae,0.7351138720700906,117.94,0.053

@@ -1,0 +1,39 @@
+feature,mean_importance
+parental_support_level,-0.0007765851836571969
+attendance_percentage,-0.0004759898765531956
+social_activity,-0.0004335381729468679
+part_time_job_Yes,-0.0002573090776340159
+major_Engineering,-0.00019667742573254988
+extracurricular_participation_Yes,-0.00018958321994282378
+age,-0.00015827829747494526
+diet_quality,-0.00014472901899842405
+major_Psychology,-0.0001324601035858519
+time_management_score,-0.00013212110127698297
+learning_style_Kinesthetic,-0.00012306862492055258
+gender_Other,-0.00011392110401542421
+dropout_risk_Yes,-7.263935250809706e-05
+parental_education_level,-6.841511030979408e-05
+internet_quality,-3.777157941531328e-07
+semester,3.3332814283193457e-06
+family_income_range,3.171265469950058e-05
+learning_style_Visual,5.091009803452895e-05
+major_Biology,7.823533620439082e-05
+major_Business,8.697594447064639e-05
+major_Computer Science,9.796550776637325e-05
+gender_Male,0.00014734893002408267
+learning_style_Reading,0.0002672896123239843
+mental_health_rating,0.0005560959539060662
+netflix_hours,0.0009066321849786396
+study_environment_Co-Learning Group,0.001097408482068185
+study_environment_Library,0.0013113895662522745
+social_media_hours,0.0014731804799165804
+screen_time,0.005952164684290384
+exam_anxiety_score,0.009539338180567158
+study_environment_Quiet Room,0.009941226374087609
+sleep_hours,0.01163869358241032
+exercise_frequency,0.014890462122889647
+stress_level,0.02433451089007992
+access_to_tutoring_Yes,0.030765412018117222
+study_environment_Dorm,0.03210219143434032
+motivation_level,0.07029047929789067
+study_hours_per_day,0.0852184822029061

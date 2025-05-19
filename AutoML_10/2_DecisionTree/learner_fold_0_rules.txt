@@ -1,0 +1,16 @@
+if (previous_gpa > -0.383) and (previous_gpa > 0.33) and (previous_gpa > 0.632) then response: 0.756 | based on 21,607 samples
+
+if (previous_gpa <= -0.383) and (previous_gpa > -1.42) and (previous_gpa > -0.923) then response: -0.573 | based on 5,390 samples
+
+if (previous_gpa <= -0.383) and (previous_gpa > -1.42) and (previous_gpa <= -0.923) then response: -1.075 | based on 4,214 samples
+
+if (previous_gpa > -0.383) and (previous_gpa <= 0.33) and (previous_gpa <= -0.016) then response: -0.114 | based on 4,031 samples
+
+if (previous_gpa > -0.383) and (previous_gpa <= 0.33) and (previous_gpa > -0.016) then response: 0.218 | based on 3,777 samples
+
+if (previous_gpa <= -0.383) and (previous_gpa <= -1.42) and (previous_gpa > -2.025) then response: -1.601 | based on 3,507 samples
+
+if (previous_gpa > -0.383) and (previous_gpa > 0.33) and (previous_gpa <= 0.632) then response: 0.509 | based on 3,360 samples
+
+if (previous_gpa <= -0.383) and (previous_gpa <= -1.42) and (previous_gpa <= -2.025) then response: -2.364 | based on 2,114 samples
+
